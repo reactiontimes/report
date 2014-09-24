@@ -1,3 +1,4 @@
+from statistics import mean,median
 class Person:
     def __init__(self,line):
         hold = line.split(',')
@@ -6,7 +7,8 @@ class Person:
         #print(self.goes)
         if len(self.goes) !=5:
             raise ValueError('naughty '+self.name)
-        self.average = sum(self.goes)/len(self.goes)
+        self.average = mean(self.goes)
+        self.median = median(self.goes)
     def __str__(self):
         return self.name
     def __repr__(self):
@@ -39,9 +41,11 @@ with open("reports.txt") as f:
 for report in reports:
     keeps = [person for person in people if report.check(person)]
     avgs = [person.average for person in keeps]
+    medians = [person.median for person in keeps]
     try:
         average = sum(avgs)/len(avgs)
+        median = sum(avgs)/len(avgs)
     except ZeroDivisionError:
         average = 0
     #print(keeps)
-    print('Group Name: {} Average Score: {:.3f}'.format(report.name,average))
+    print('Group Name: {} Average Score: {:.3f} Median:{:.3f}'.format(report.name,average,median))
