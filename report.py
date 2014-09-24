@@ -4,7 +4,7 @@ class Person:
         hold = line.split(',')
         self.checked= None
         self.name,self.gender,self.year = hold[:3]
-        self.goes =[decode(go) for go in hold[3:]]
+        self.goes =[self.decode(go) for go in hold[3:]]
         #print(self.goes)
         if len(self.goes) !=5:
             raise ValueError('naughty '+self.name)
@@ -14,8 +14,8 @@ class Person:
         return self.name
     def __repr__(self):
         return '(Person:{} {})'.format(self.name,self.average)
-    @staticmethod
-    def decode(value):
+    
+    def decode(self,value):
         def check(v):
             res=v
             digits = [(ord(r)-ord('0'))*(count+1)
