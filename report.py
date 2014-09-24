@@ -65,8 +65,9 @@ for report in reports:
     medians = [person.median for person in keeps]
     try:
         average = sum(avgs)/len(avgs)
-        median = sum(avgs)/len(avgs)
+        median = sum(medians)/len(medians)
     except ZeroDivisionError:
         average = 0
+        median =0
     #print(keeps)
     print('Group Name: {} Average Score: {:.3f} Median:{:.3f}'.format(report.name,average,median))
