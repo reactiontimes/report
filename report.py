@@ -24,13 +24,13 @@ class Person:
         if '0' <= value[-1] <= '9':
             # no check digit
             if self.checked == True:
-                raise ValueError('check digit missing')
+                raise ValueError('check digit missing'+self.name)
             self.checked = False
             return float(value)
         if check(value[:-1]) != value[-1]:
-            raise ValueError('Bad Check digit')
+            raise ValueError('Bad Check digit'+self.name)
         if self.checked == False:
-            raise ValueError('missing check digit')
+            raise ValueError('missing check digit'+self.name)
         self.checked == True
         return float(value[:-1])
 
