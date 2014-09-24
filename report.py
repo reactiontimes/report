@@ -2,8 +2,9 @@ from statistics import mean,median
 class Person:
     def __init__(self,line):
         hold = line.split(',')
+        self.checked= None
         self.name,self.gender,self.year = hold[:3]
-        self.goes =[float(go) for go in hold[3:]]
+        self.goes =[decode(go) for go in hold[3:]]
         #print(self.goes)
         if len(self.goes) !=5:
             raise ValueError('naughty '+self.name)
@@ -13,6 +14,26 @@ class Person:
         return self.name
     def __repr__(self):
         return '(Person:{} {})'.format(self.name,self.average)
+    @staticmethod
+    def decode(value):
+        def check(v):
+            res=v
+            digits = [(ord(r)-ord('0'))*(count+1)
+                        for count,r in enumerate(res) if r != '.']
+            return chr(sum(digits)%10+ord('a'))
+        if '0' <= value[-1] <= '9':
+            # no check digit
+            if self.checked == True:
+                raise ValueError('check digit missing')
+            self.checked = False
+            return float(value)
+        if check(value[:-1]) != value[-1]:
+            raise ValueError('Bad Check digit')
+        if self.checked == False:
+            raise ValueError('missing check digit')
+        self.checked == True
+        return float(value[:-1])
+
 
 class Report:
     def __init__(self,line):
