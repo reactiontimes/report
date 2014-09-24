@@ -4,3 +4,5 @@ younger boys,0,8,male
 younger girls,0,8,female
 tweens and teens,9,18,all
 all children,0,18,ALL
+adults,19,200,female
+adults,19,200,male
