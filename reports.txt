@@ -8,7 +8,7 @@ young adults,19,40,all
 normal adults,41,60,all
 older adults,60,100,all
 older girls,9,18,female
-older boys, 9,18,male
+older boys,9,18,male
 young female adults,19,40,female
 young male adults,19,40,male
 normal female adults,40,60,female
