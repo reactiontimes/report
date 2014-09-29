@@ -2,8 +2,21 @@
 #report name,starts age, end age,gender(male,female,all)
 younger boys,0,8,male
 younger girls,0,8,female
+younger children,0,8,all
 older children,9,18,all
+young adults,19,40,all
+normal adults,41,60,all
+older adults,60,100,all
+older girls,9,18,female
+older boys, 9,18,male
+young female adults,19,40,female
+young male adults,19,40,male
+normal female adults,40,60,female
+normal male adults,40,60,male
+older female adults,60,100,female
+older male adults,60,100,male
 all children,0,18,ALL
 all adults,19,100,all
 all female,0,100,female
 all male,0,100,male
+everybody,0,100,all
