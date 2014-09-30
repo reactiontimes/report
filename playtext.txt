@@ -15,3 +15,11 @@ Skiiers suck!,male,1990,0.29500h,0.32900c,0.27800e,0.28400i,0.29000c
 Aaron,male,1985,0.66900h,0.68500f,0.66800c,0.63400a,0.61600c
 #Here are the results from Deb Evans:
 Deb,female,1958,0.38100g,0.36300i,0.35500e,0.32600h,0.36300i
+# "Mary Balch" <maryliz@bigpond.com> 
+ Mares,female,1958,0.44300d,0.37500c,0.37100c,0.33800b,0.35000j 
+# "Lisa Catori" <Lisa.Catori@facs.nsw.gov.au> 
+ Lisa ,female,1972,0.64200e,0.36100i,0.35900e,0.35600j,0.39300a 
+# "Joanna Schafer" <Joanna.Schafer@facs.nsw.gov.au> 
+ Joanna,female,1960,0.43700j,0.43400e,0.35700e,0.47700f,0.37200h 
+# "Robert Sadaraka" <Robert.Sadaraka@facs.nsw.gov.au> 
+ Robert,male,1966,0.71700a,0.66000c,0.42700f,0.37200h,0.35800j 
