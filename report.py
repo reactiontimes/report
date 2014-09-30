@@ -1,4 +1,11 @@
 from statistics import mean,median
+
+def spread(results):
+    if not results:
+        return 0
+    mean = sum(results)/len(results)
+    spreads = [(result-mean)**2 for result in results]
+    return (sum(spreads)/len(spreads))**(1/2)
 class Person:
     def __init__(self,line):
         hold = line.split(',')
@@ -10,6 +17,7 @@ class Person:
             raise ValueError('naughty '+self.name)
         self.average = mean(self.goes)
         self.median = median(self.goes)
+        self.spread = spread(self.goes)
     def __str__(self):
         return self.name
     def __repr__(self):
@@ -59,15 +67,19 @@ with open("reports.txt") as f:
     
 #print(people)
 
+print('{:20} {:>10} {:>15} {:>15} {:>15} {:>15} {:>15}'.format('Group Name','People','Personal Spread','Average','Std dev of Avg','Median','Std dev of Median'))
 for report in reports:
     keeps = [person for person in people if report.check(person)]
     avgs = [person.average for person in keeps]
     medians = [person.median for person in keeps]
+    spreads = [person.spread for person in keeps]
     try:
         average = sum(avgs)/len(avgs)
-        median = sum(medians)/len(medians)
+        the_median = sum(medians)/len(medians)
+        the_spread = sum(spreads)/len(spreads)
     except ZeroDivisionError:
         average = 0
-        median =0
+        the_median =0
+        the_spread = 0
     #print(keeps)
-    print('Group Name: {} Average Score: {:.3f} Median:{:.3f}'.format(report.name,average,median))
+    print('{:20} {:10} {:15.3f} {:15.3f} {:15.3f} {:15.3f} {:15.3f}'.format(report.name,len(keeps),the_spread,average,spread(avgs),the_median,spread(medians)))
