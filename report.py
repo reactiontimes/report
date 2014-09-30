@@ -60,7 +60,7 @@ class Report:
         return self.age_start <= age <= self.age_end
         
 with open("playtext.txt") as f:
-    people = [Person(line.strip()) for line in f if not line.startswith('#')]
+    people = [Person(line.strip()) for line in f if not line.startswith('#') and line.strip()]
 
 with open("reports.txt") as f:
     reports = [Report(line.strip()) for line in f if not line.startswith('#')]
