@@ -1,41 +1,57 @@
 #name,gender,year,go1,go2,go3,go4,go5
+
 #Here are the results from Brad Neimann:
 Brad,male,2003,0.68300f,0.43100j,0.59500g,0.51600j,0.57600d
+
 #Here are the results from Tony Guy(On his Ipad-maybe we should get him to do again?):
 Tony,male,1949,0.80300j,1.78700j,0.81700d,2.16300e,0.98300e
+
 #Here are the results from Miechal Ball:
 Mobs,male,1965,0.40300h,0.40000c,0.38700g,0.49100d,0.37000h
+
 #Here are the results from Nancy(Sophie's mum):
 Nancy,female,1966,0.57900i,0.51800j,0.52400d,0.65900d,0.62400g
+
 #Here are the results from Roopa Raha:
 Peaceful,female,1965,0.69000e,0.52300i,0.50900a,0.45300h,0.54200b
+
 #Here are the results from Eric Mu:
 Skiiers suck!,male,1990,0.29500h,0.32900c,0.27800e,0.28400i,0.29000c
+
 #Here are the results from Aaron Beven:
 Aaron,male,1985,0.66900h,0.68500f,0.66800c,0.63400a,0.61600c
 
 #Here are the results from Deb Evans:
 Deb,female,1958,0.38100g,0.36300i,0.35500e,0.32600h,0.36300i
-# "Mary Balch" <maryliz@bigpond.com> 
- Mares,female,1958,0.44300d,0.37500c,0.37100c,0.33800b,0.35000j 
-# "Lisa Catori" <Lisa.Catori@facs.nsw.gov.au> 
- Lisa ,female,1972,0.64200e,0.36100i,0.35900e,0.35600j,0.39300a 
-# "Joanna Schafer" <Joanna.Schafer@facs.nsw.gov.au> 
- Joanna,female,1960,0.43700j,0.43400e,0.35700e,0.47700f,0.37200h 
-# "Robert Sadaraka" <Robert.Sadaraka@facs.nsw.gov.au> 
- Robert,male,1966,0.71700a,0.66000c,0.42700f,0.37200h,0.35800j 
-# "Sally Millward" <Sally.Millward2@facs.nsw.gov.au> 
- SM,female,1972,0.46200g,0.38700g,0.59900g,0.41300b,0.41200g 
-# "Philippa Davis" <Philippa.Davis@facs.nsw.gov.au> 
- Pip,female,1957,0.47800a,0.43600e,0.47100f,0.51500e,0.43900j 
-# "Sarah Steel" <Sarah.Steel@facs.nsw.gov.au> 
- Sarah ,female,1971,0.38600b,0.38800b,0.31500i,0.34100a,0.31800d 
-# "Danielle Bijen" <Danielle.Bijen@facs.nsw.gov.au> 
- Dippy,female,1987,0.30500e,0.35300e,0.37000h,0.27900j,0.32400h 
-# "Smith, Paul" <Paul.Smith@records.nsw.gov.au> 
- paul,male,1972,0.34300a,0.35400j,0.32200h,0.32100c,0.32600h
+
+#"Mary Balch" <maryliz@bigpond.com> 
+Mares,female,1958,0.44300d,0.37500c,0.37100c,0.33800b,0.35000j
+ 
+#"Lisa Catori" <Lisa.Catori@facs.nsw.gov.au> 
+Lisa ,female,1972,0.64200e,0.36100i,0.35900e,0.35600j,0.39300a
+
+#"Joanna Schafer" <Joanna.Schafer@facs.nsw.gov.au> 
+Joanna,female,1960,0.43700j,0.43400e,0.35700e,0.47700f,0.37200h
+
+#"Robert Sadaraka" <Robert.Sadaraka@facs.nsw.gov.au> 
+Robert,male,1966,0.71700a,0.66000c,0.42700f,0.37200h,0.35800j
+
+#"Sally Millward" <Sally.Millward2@facs.nsw.gov.au> 
+SM,female,1972,0.46200g,0.38700g,0.59900g,0.41300b,0.41200g
+
+#"Philippa Davis" <Philippa.Davis@facs.nsw.gov.au> 
+Pip,female,1957,0.47800a,0.43600e,0.47100f,0.51500e,0.43900j
+
+#"Sarah Steel" <Sarah.Steel@facs.nsw.gov.au> 
+Sarah ,female,1971,0.38600b,0.38800b,0.31500i,0.34100a,0.31800d
+
+#"Danielle Bijen" <Danielle.Bijen@facs.nsw.gov.au> 
+Dippy,female,1987,0.30500e,0.35300e,0.37000h,0.27900j,0.32400h
+
+#"Smith, Paul" <Paul.Smith@records.nsw.gov.au> 
+paul,male,1972,0.34300a,0.35400j,0.32200h,0.32100c,0.32600h
 #Sophie additions above here
-#
+
 #additions by Kaya
 Dan,male,1972,0.32300c,0.29200c,0.32300c,0.32300c,0.32400h
 Sam,female,1972,0.40200c,0.37100c,0.38600b,0.34400f,0.36400d
