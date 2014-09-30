@@ -6,7 +6,7 @@ Brad,male,2003,0.68300f,0.43100j,0.59500g,0.51600j,0.57600d
 #Here are the results from Tony Guy(On his Ipad-maybe we should get him to do again?):
 Tony,male,1949,0.80300j,1.78700j,0.81700d,2.16300e,0.98300e
 
-#Here are the results from Miechal Ball:
+#Here are the results from Michael Ball:
 Mobs,male,1965,0.40300h,0.40000c,0.38700g,0.49100d,0.37000h
 
 #Here are the results from Nancy(Sophie's mum):
