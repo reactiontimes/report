@@ -4,6 +4,10 @@ younger boys,0,8,male
 younger girls,0,8,female
 younger children,0,8,all
 older children,9,18,all
+girls,0,18,female
+boys,0,18,male
+women,19,100,female
+men,19,100,male
 young adults,19,40,all
 normal adults,41,60,all
 older adults,60,100,all
