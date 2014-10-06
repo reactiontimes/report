@@ -50,6 +50,17 @@ Dippy,female,1987,0.30500e,0.35300e,0.37000h,0.27900j,0.32400h
 
 #"Smith, Paul" <Paul.Smith@records.nsw.gov.au> 
 paul,male,1972,0.34300a,0.35400j,0.32200h,0.32100c,0.32600h
+
+# "Ward, Sam" <Sam.Ward@transport.nsw.gov.au> 
+SW,female,1986,0.29500h,0.30800j,0.32000h,0.21900f,0.23000i
+ 
+# "ian.ogilvy@saltmobile.com" <ian.ogilvy@saltmobile.com> 
+assistant,male,1957,0.31900i,0.30100e,0.27900j,0.28200i,0.28800i
+ 
+# "Peter Thyer" <p.thyer@bigpond.com> 
+petert,male,1953,0.41200g,0.43800e,0.43000e,0.36200d,0.40400c 
+Rosie,female,2001,0.36900i,0.36400d,0.35500e,0.33900g,0.35400j 
+brandy,female,1960,0.41600g,0.41800g,0.40800c,0.43700j,0.46800g
 #Sophie additions above here
 
 #additions by Kaya
