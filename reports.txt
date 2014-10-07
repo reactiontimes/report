@@ -12,7 +12,7 @@ women,19,100,female
 men,19,100,male
 #
 young adults,19,40,all
-normal adults,41,60,all
+adults 41-60,41,60,all
 older adults,61,100,all
 older girls,9,18,female
 older boys,9,18,male
