@@ -6,6 +6,8 @@ def spread(results):
     mean = sum(results)/len(results)
     spreads = [(result-mean)**2 for result in results]
     return (sum(spreads)/len(spreads))**(1/2)
+def stderr(medians):
+    return spread(medians)/(len(medians)**(1/2))
 class Person:
     def __init__(self,line):
         hold = line.split(',')
@@ -67,7 +69,8 @@ with open("reports.txt") as f:
     
 #print(people)
 
-print('{:20} {:>10} {:>15} {:>15} {:>15} {:>15} {:>15}'.format('Group Name','People','Personal Spread','Average','Std dev of Avg','Median','Std dev of Median'))
+print('{:20} {:>10} {:>15} {:>15} {:>15} {:>15} {:>15} {:>15}'.format(
+    'Group Name','People','Personal Spread','Average','Std dev of Avg','Median','Std dev of Median','Std Error'))
 for report in reports:
     keeps = [person for person in people if report.check(person)]
     avgs = [person.average for person in keeps]
@@ -82,4 +85,5 @@ for report in reports:
         the_median =0
         the_spread = 0
     #print(keeps)
-    print('{:20} {:10} {:15.3f} {:15.3f} {:15.3f} {:15.3f} {:15.3f}'.format(report.name,len(keeps),the_spread,average,spread(avgs),the_median,spread(medians)))
+    print('{:20} {:10} {:15.3f} {:15.3f} {:15.3f} {:15.3f} {:15.3f} {:15.3f}'.format(
+        report.name,len(keeps),the_spread,average,spread(avgs),the_median,spread(medians),stderr(medians)))
