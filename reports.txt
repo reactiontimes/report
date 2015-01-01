@@ -1,13 +1,12 @@
 #this the list of the reports
 #report name,starts age, end age,gender(male,female,all)
-<<<<<<< HEAD
 younger girls,0,5,female
 younger boys,0,5,male
 younger children,0,5,all
 #
-kids girls,6,8,female
-kids boys,6,8,male
-kids,6,8,all
+kids girls,0,8,female
+kids boys,0,8,male
+kids,0,8,all
 #
 teenager girl,8,18,female
 teenager boy,8,18,male
@@ -24,35 +23,9 @@ adults 40-60,40,60,all
 older female adults,61,100,female
 older male adults,61,100,male
 older adults,61,100,all
-=======
-younger boys,0,8,male
-younger girls,0,8,female
-younger children,0,8,all
-#
-older children,9,18,all
-girls,0,18,female
-boys,0,18,male
-#
-women,19,100,female
-men,19,100,male
-#
-young adults,19,40,all
-adults 41-60,41,60,all
-older adults,61,100,all
-older girls,9,18,female
-older boys,9,18,male
-young female adults,19,40,female
-young male adults,19,40,male
-#
-female adults 41-60,41,60,female
-male adults 41-60,41,60,male
-#
-older female adults,60,100,female
-older male adults,60,100,male
 #
 all children,0,18,ALL
 all adults,19,100,all
->>>>>>> FETCH_HEAD
 #
 all female,0,100,female
 all male,0,100,male
